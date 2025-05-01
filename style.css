@@ -1,0 +1,68 @@
+.elison {
+    background: linear-gradient( 
+209deg
+ , deeppink 37%, #e9ecef 37%);
+    padding: 2rem 8rem;
+}
+.task {
+    border-radius: 10px;
+    padding-top: 2rem;
+    background: #efeded;
+    box-shadow: 0 0.25rem 0.5625rem -0.0625rem rgb(0 0 0 / 0%), 0 0.275rem 1.25rem -0.0625rem rgb(0 0 0 / 44%);
+}
+.nav {
+    padding: 0px 14px;
+}
+.task .nav .icon {
+    float: left;
+}
+.task .nav .icon i.fa.fa-user-circle {
+    font-size: 22px;
+    color: deeppink;
+}
+.task .nav .links ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.task .nav .links ul li {
+    float: left;
+        padding: 1px 15px;
+}
+.task .nav .links ul li a {
+    color: black;
+}
+.task .nav .links ul li a:hover {
+    text-decoration: underline;
+    text-decoration-color: deeppink;
+}
+.task .content .details h1 {
+    font-family: sans-serif;
+    font-weight: 700;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 55px;
+}
+.task .content .details span {
+    color: deeppink;
+}
+.task .content .details h3 {
+    padding-bottom: 10px;
+    font-weight: 700;
+}
+.task .content .buttons button.btn.btn-primary {
+    font-size: 13px;
+    padding: 0px 23px;
+    padding-top: 8px;
+    padding-bottom: 10px;
+}
+.task .content .buttons span i.fa.fa {
+    font-size: 16px;
+}
+.task .content .buttons button.btn.btn-primary {
+    background-color: deeppink;
+    border: 0;
+}
+.task .details {
+    padding-top: 5rem;
+}
